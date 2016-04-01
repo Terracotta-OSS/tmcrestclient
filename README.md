@@ -24,9 +24,9 @@ You can find the official TMC Rest Api documentation on the [Terracotta Document
 Code Samples
 ------------
 
-[TMC Rest Api / TSA Rest Agent API Java client code samples](/jdk-no-dependencies-code-samples/) : compatible with JDK 6, no dependencies at all
+[TMC Rest Api / TSA Rest Agent API Java client code samples](jdk-no-dependencies-code-samples/) : compatible with JDK 6, no dependencies at all
 
-[TMC Rest Api / TSA Rest Agent API CURL code samples](/curl.md)
+[TMC Rest Api / TSA Rest Agent API CURL code samples](curl.md)
 
 Caveats
 -------

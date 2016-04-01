@@ -7,4 +7,4 @@ That means those code samples do not require any dependencies (Apache commons, J
 
 Enjoy !
 
-See the [base README](../README.md) for more information about the scope of these code samples.
+See the [base README](../) for more information about the scope of these code samples.
