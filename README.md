@@ -35,8 +35,10 @@ The examples are pretty straightforward; but pay attention to :
 
 * 302 Http Status code
 
-1) When you login to the TMC, it's expected to have this status code (check the location redirecting you to /tmc/);
+1) When you login to the TMC, it's expected to have this status code (check the location redirecting you to /tmc/)
+
 2) Otherwise, it means you did not provide authentication cookies as part of your request (check the location redirecting you to /tmc/login.jsp)
+
 
 * 403 Http Status code
 

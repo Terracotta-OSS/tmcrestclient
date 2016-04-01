@@ -16,14 +16,14 @@ non authenticated, against an agent :
 
 authenticated, against the TMC :
 
-    $ curl -b myTmcCookieJar.txt http://localhost:9889/tmc/api/v2/agents/cacheManagers
+    $ curl -b myTmcCookieJar.txt 'http://localhost:9889/tmc/api/v2/agents/cacheManagers'
 
 The interesting part here is the "-b myTmcCookieJar.txt", that will read the cookies previously saved in a file.
 
 Also interesting for what's to come, is displaying the headers of the response :
 
 
-    $ curl -D -  -b myTmcCookieJar.txt  http://localhost:9889/tmc/api/v2/agents/
+    $ curl -D -  -b myTmcCookieJar.txt  'http://localhost:9889/tmc/api/v2/agents/'
 
     HTTP/1.1 200 OK
     Date: Fri, 01 Apr 2016 02:45:28 GMT
@@ -43,7 +43,7 @@ Trigger a backup
 
 non authenticated, against an agent :
 
-    $ curl http://localhost:9540/tc-management-api/v2/agents;ids=embedded/backups;name=MyBackup
+    $ curl -X POST 'http://localhost:9540/tc-management-api/v2/agents;ids=embedded/backups;name=MyBackup'
 
 authenticated, against the TMC :
 
@@ -60,7 +60,7 @@ Trigger a distributed GC (DGC)
 
 non authenticated, against an agent :
 
-    $ curl http://localhost:9540/tc-management-api/v2/agents;ids=embedded/diagnostics/dgc
+    $ curl -X POST 'http://localhost:9540/tc-management-api/v2/agents;ids=embedded/diagnostics/dgc'
 
 authenticated, against the TMC :
 
