@@ -8,6 +8,8 @@ You can download the TMC as part as a [Terracotta BigMemory download](http://ter
 Scope
 -----
 
+THOSE CODE SAMPLES ARE NOT SUPPORTED
+
 The code samples have been tested against TMC 4.3+ and the Terracotta Agents 4.3+
 
 That said, all the examples should work with previous versions (keep in mind though that the /v2 Rest API appeared with 4.2)
