@@ -30,6 +30,9 @@ Code Samples
 
 [TMC Rest Api / TSA Rest Agent API CURL code samples](curl.md)
 
+
+Also see "available_statistics.txt" 
+
 Caveats
 -------
 
