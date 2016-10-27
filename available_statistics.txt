@@ -75,6 +75,9 @@ CacheClusterOnlineCount
 
 ====================================================
 
+Note:   "*Count" statistics are all-time counts.  "*Rate" statistics are the rate during the most recent sample period (generally a narrow window of time).   "*Size" statistics are number of elements.
+
+
 Example of requesting stats via TMS (alternate URLs can request directly from local agent):
 curl "http://localhost:9889/tmc/api/v2/agents;ids=LocalCluster/cacheManagers;names=config/caches?show=show=LocalHeapSizeInBytes&show=LocalOffHeapSizeInBytes"
 
