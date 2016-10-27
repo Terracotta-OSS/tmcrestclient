@@ -23,6 +23,9 @@ Official Terracotta Management Console Documentation
 You can find the official TMC Rest Api documentation on the [Terracotta Documentation website](http://terracotta.org/generated/4.3.1/html/bmm-all/#page/bigmemory-max-webhelp%2F_bigmem_max_all.1.497.html%23)
 
 
+Also see "available_statistics.txt" 
+
+
 Code Samples
 ------------
 
@@ -31,7 +34,6 @@ Code Samples
 [TMC Rest Api / TSA Rest Agent API CURL code samples](curl.md)
 
 
-Also see "available_statistics.txt" 
 
 Caveats
 -------
