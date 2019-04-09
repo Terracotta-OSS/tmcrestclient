@@ -16,7 +16,7 @@ non authenticated, against an agent :
 
 authenticated, against the TMC :
 
-    $ curl -b myTmcCookieJar.txt 'http://localhost:9889/tmc/api/v2/agents/cacheManagers'
+    $ curl -b myTmcCookieJar.txt 'http://localhost:9889/tmc/api/v2/agents/clusters/cacheManagers'
 
 The interesting part here is the "-b myTmcCookieJar.txt", that will read the cookies previously saved in a file.
 
